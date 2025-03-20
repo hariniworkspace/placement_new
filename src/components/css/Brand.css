@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brands-container {
+  @apply text-center bg-white py-4 px-2;
+}
+
+.brands-title {
+  @apply text-black font-bold text-4xl mb-10;
+}
+.brands-title span {
+  @apply text-orange-600;
+}
+.divider {
+  @apply w-[80%] h-1 bg-black mx-[10%] border-none;
+}
+
+.brands-grid {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-1 justify-items-center items-center max-w-full mx-auto;
+}
+
+.brand-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brand-logo {
+  @apply w-[200px] h-auto max-w-full mb-5 mt-5;
+}
+
+.brand-item {
+  @apply transition-transform duration-300 transform hover:scale-110;
+}
+
+
