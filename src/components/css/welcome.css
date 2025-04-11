@@ -1,0 +1,68 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-top: 1px;
+}
+
+.text-container {
+  max-width: 600px;
+  z-index: 2;
+  position: relative;
+}
+
+.heroname {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.get-started {
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #ffffff;
+  color: #ff6f00;
+  margin-left: 7px;
+  border: 2px solid #ff6f00;
+  font-size: 1rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.get-started::after {
+  content: "→";
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.get-started:hover {
+  background: #ff6f00;
+  color: white;
+  border: none;
+  transform: scale(1.1);
+}
+
+.get-started:hover::after {
+  transform: translateX(8px);
+}
+
+.heroimg {
+  height: auto;
+  animation: fadeIn 1s ease-in-out;
+  margin-top: 0%;
+  width: 500px;
+}
