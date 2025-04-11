@@ -27,9 +27,9 @@
   margin-top: 30px;
   padding: 12px 24px;
   background: #ffffff;
-  color: #ff6f00;
+  color: #0026ff;
   margin-left: 7px;
-  border: 2px solid #ff6f00;
+  border: 2px solid #0026ff60;
   font-size: 1rem;
   border-radius: 15px;
   cursor: pointer;
@@ -50,7 +50,7 @@
 }
 
 .get-started:hover {
-  background: #ff6f00;
+  background: #070aea;
   color: white;
   border: none;
   transform: scale(1.1);
